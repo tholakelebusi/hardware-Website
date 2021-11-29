@@ -8,12 +8,14 @@ import { AboutComponent } from './components/about/about.component';
 import { HouseplanComponent } from './components/housePlans/houseplan/houseplan.component';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { FormComponent } from './components/form/form.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
-    HouseplanComponent
+    HouseplanComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
