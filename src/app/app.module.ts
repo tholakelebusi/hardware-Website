@@ -8,20 +8,23 @@ import { AboutComponent } from './components/about/about.component';
 import { HouseplanComponent } from './components/housePlans/houseplan/houseplan.component';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { FormComponent } from './components/form/form.component';
+import { FormsModule , ReactiveFormsModule}   from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
     HouseplanComponent,
-    FormComponent
+   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NoopAnimationsModule,
-    MatGridListModule
+    MatGridListModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
