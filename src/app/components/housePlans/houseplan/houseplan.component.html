@@ -1,13 +1,19 @@
-
-
-
-  <mat-grid-list cols="2" rowHeight="300px">
-    <mat-grid-tile  *ngFor="let plan of plans">
-<div class="card" style="width: 18rem;">
-    <h5 class="card-title">Plans</h5>
-    <img src={{plan.image}} >
-    <div class="card-body">
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <mat-grid-list cols="2" rowHeight="300px">
+        <mat-grid-tile  *ngFor="let plan of plans">
+    <div class="card" style="width: 18rem;">
+        <h5 class="card-title">Plans</h5>
+        <img src={{plan.image}} >
+        <div class="card-body">
+        </div>
+      </div>
+     </mat-grid-tile>
+     </mat-grid-list>
     </div>
-  </div>
- </mat-grid-tile>
- </mat-grid-list>
+    </div>
+    </div>
+
+
+

@@ -9,6 +9,7 @@ import { HouseplanComponent } from './components/housePlans/houseplan/houseplan.
 import {MatGridListModule} from '@angular/material/grid-list';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule , ReactiveFormsModule}   from '@angular/forms';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { FormsModule , ReactiveFormsModule}   from '@angular/forms';
     HomeComponent,
     AboutComponent,
     HouseplanComponent,
+    NavbarComponent,
    
   ],
   imports: [

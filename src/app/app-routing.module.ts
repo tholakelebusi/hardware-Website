@@ -6,10 +6,10 @@ import { HouseplanComponent } from './components/housePlans/houseplan/houseplan.
 import {FormComponent} from './components/form/form.component'
 
 const routes: Routes = [
-  {path:'home',component:HomeComponent},
+  {path:'',component:HomeComponent},
   {path:'about',component:AboutComponent},
   {path:'Houses',component:HouseplanComponent},
-  {path:'',component:FormComponent}
+  {path:'form',component:FormComponent}
 ];
 
 @NgModule({
