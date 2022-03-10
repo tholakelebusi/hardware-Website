@@ -6,7 +6,7 @@ import { HouseplanComponent } from './components/housePlans/houseplan/houseplan.
 import {FormComponent} from './components/form/form.component'
 
 const routes: Routes = [
-  {path:'',component:HomeComponent},
+  {path:'home',component:HomeComponent},
   {path:'about',component:AboutComponent},
   {path:'Houses',component:HouseplanComponent},
   {path:'form',component:FormComponent}
