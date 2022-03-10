@@ -1,5 +1,6 @@
 .card
 {
+  
   background: rgba(255, 255, 255, 0.2);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -55,7 +56,10 @@ p {
 
   .container
 {
+  background-image: url("https://images.pexels.com/photos/834892/pexels-photo-834892.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   height: 100%;
-  background:#ffd800;
+  width: 100%;
+ background-repeat: no-repeat;
+ background-size: contain;
  
 }
