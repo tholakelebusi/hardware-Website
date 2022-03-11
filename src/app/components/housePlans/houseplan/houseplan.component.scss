@@ -1,12 +1,42 @@
 .container
 {
-    height: 100%;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBNK6zT9W4yRbqFRdb5S5RhYTmi1VlgHcyAQ&usqp=CAU');
+  background-image: url("https://images4.newscred.com/Zz1kNmFkYmFmNzhlNGIxMWViYTU1ZDFmYjg0ZWI5MTc4Zg==");
+  height: 100%;
+  width: 200%;
+ background-repeat: no-repeat;
+ background-size:cover
+ 
 }
 
+// .card
+// {
+//     margin-top: 12cm;
+//     height: 17cm;
+//     width: 17cm;
+// }
+
 .card
-{
-    margin-top: 12cm;
-    height: 17cm;
-    width: 17cm;
+{ height: 6cm;
+        width: 10cm;
+  background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 10px solid rgba(255, 255, 255, 0.3);
+   
 }
+
+p{
+  font-weight: bolder;
+  font-variant-caps: all-small-caps;
+
+}
+
+img {
+ 
+    border-radius: 60%;
+    height:3.5cm;
+    width:4cm;
+    margin-left: 30%;
+  } 

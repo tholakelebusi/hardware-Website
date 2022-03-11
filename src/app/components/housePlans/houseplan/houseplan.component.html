@@ -1,23 +1,17 @@
 <div class="container">
-  <div class="row">
 
-
-    <div class="col">
-      <mat-grid-list cols="3" rowHeight="100px">
+    <h5 class="card-title">House Plans</h5>
+      <mat-grid-list cols="3">
         <mat-grid-tile  *ngFor="let plan of plans">
-    <div class="card" >
-        <h5 class="card-title">House Plans</h5>
-        <img src={{plan.image}} >
-        <div class="card-body">
-        </div>
-      </div>
+          <div class="card">
+              <div class="card-body">
+                <img src={{plan.image}} >
+              </div>
+              </div>
      </mat-grid-tile>
      </mat-grid-list>
     </div>
 
-    
-    </div>
-    </div>
 
 
-
+  

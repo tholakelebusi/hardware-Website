@@ -1,17 +1,32 @@
 img {
     border-radius: 60%;
-    height:50px;
-    width:50px;
+    height:45px;
+    width:45px;
  
   } 
 
   .container
   {
+    background-image: url("https://images4.newscred.com/Zz1kNmFkYmFmNzhlNGIxMWViYTU1ZDFmYjg0ZWI5MTc4Zg==");
     height: 100%;
-        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBNK6zT9W4yRbqFRdb5S5RhYTmi1VlgHcyAQ&usqp=CAU');
-      
+    width: 200%;
+   background-repeat: no-repeat;
+   background-size:cover
+   
   }
   .card
   {
-      margin-top: 50%;
+    background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 10px solid rgba(255, 255, 255, 0.3);
+      margin-top: 3cm;
+  }
+
+  p{
+    font-weight: bolder;
+    font-variant-caps: all-small-caps;
+  
   }
